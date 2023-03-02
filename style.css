@@ -11,26 +11,26 @@ h1{
     padding: 0 15px;
     margin: 0 auto;
 }
-.header_container_address {
+.header__container_address {
     width: 100%;
     display: flex;
     justify-content: space-between;
     height: 70px;
     align-items: center;
 }
-.header_state {
+.header__state {
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
 }
-.header_address {
+.header__address {
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
 }
-.header_workday {
+.header__workday {
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 16px;
@@ -42,5 +42,103 @@ h1{
     font-size: 16px;
     line-height: 19px;
     color: #000000;
+
+}
+.header__background {
+    position: absolute;
+    width: 1920px;
+    height: 867px;
+    left: 10px;
+    top: 165px;
+
+}
+.header__logo {
+    position: absolute;
+    width: 140px;
+    height: 29px;
+    left: 372px;
+    top: 108px;
+
+
+}
+.photo__retail {
+    left: 10.71%;
+    right: 0%;
+    top: 24.13%;
+    bottom: 24.15%;
+
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 111.69%;
+
+    letter-spacing: 0.045em;
+
+    color: #FFFFFF;
+
+}
+.about {
+    position: absolute;
+    width: 73.08px;
+    height: 17px;
+    left: 952px;
+    top: 117.94px;
+
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+
+    color: #A6A6A6;
+
+}
+.our__advantages {
+    position: absolute;
+    width: 225px;
+    height: 17px;
+    left: 1222px;
+    top: 118px;
+
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+
+    color: #A6A6A6;
+
+}
+.service {
+    position: absolute;
+    width: 73.08px;
+    height: 17px;
+    left: 1087px;
+    top: 118px;
+
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+
+    color: #A6A6A6;
+}
+.info {
+    position: absolute;
+    width: 819.85px;
+    height: 245.65px;
+    left: 370.41px;
+    top: 279.15px;
+
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 49px;
+    line-height: 55px;
+    text-transform: uppercase;
+
+    color: #F2D4B0;
 
 }
